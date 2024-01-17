@@ -17,6 +17,8 @@
 		A5735C4D2B561B4F00F01654 /* LottoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5735C4C2B561B4F00F01654 /* LottoViewController.swift */; };
 		A5735C4F2B56218500F01654 /* MarketViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5735C4E2B56218500F01654 /* MarketViewViewController.swift */; };
 		A5735C512B56577D00F01654 /* LottoAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5735C502B56577D00F01654 /* LottoAPIManager.swift */; };
+		A59F841F2B576AED00F1BA27 /* BookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A59F841E2B576AED00F1BA27 /* BookViewController.swift */; };
+		A59F84212B576C6400F1BA27 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = A59F84202B576C6300F1BA27 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,8 @@
 		A5735C4C2B561B4F00F01654 /* LottoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottoViewController.swift; sourceTree = "<group>"; };
 		A5735C4E2B56218500F01654 /* MarketViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketViewViewController.swift; sourceTree = "<group>"; };
 		A5735C502B56577D00F01654 /* LottoAPIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottoAPIManager.swift; sourceTree = "<group>"; };
+		A59F841E2B576AED00F1BA27 /* BookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookViewController.swift; sourceTree = "<group>"; };
+		A59F84202B576C6300F1BA27 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +52,7 @@
 		A5735C292B561B1900F01654 = {
 			isa = PBXGroup;
 			children = (
+				A59F84202B576C6300F1BA27 /* .gitignore */,
 				A5735C342B561B1900F01654 /* SeSACNetwork */,
 				A5735C332B561B1900F01654 /* Products */,
 			);
@@ -74,6 +79,7 @@
 				A5735C4C2B561B4F00F01654 /* LottoViewController.swift */,
 				A5735C502B56577D00F01654 /* LottoAPIManager.swift */,
 				A5735C4E2B56218500F01654 /* MarketViewViewController.swift */,
+				A59F841E2B576AED00F1BA27 /* BookViewController.swift */,
 			);
 			path = SeSACNetwork;
 			sourceTree = "<group>";
@@ -142,6 +148,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A59F84212B576C6400F1BA27 /* .gitignore in Resources */,
 				A5735C422B561B1B00F01654 /* LaunchScreen.storyboard in Resources */,
 				A5735C3F2B561B1B00F01654 /* Assets.xcassets in Resources */,
 				A5735C3D2B561B1900F01654 /* Main.storyboard in Resources */,
@@ -158,6 +165,7 @@
 				A5735C3A2B561B1900F01654 /* ViewController.swift in Sources */,
 				A5735C4D2B561B4F00F01654 /* LottoViewController.swift in Sources */,
 				A5735C362B561B1900F01654 /* AppDelegate.swift in Sources */,
+				A59F841F2B576AED00F1BA27 /* BookViewController.swift in Sources */,
 				A5735C4F2B56218500F01654 /* MarketViewViewController.swift in Sources */,
 				A5735C382B561B1900F01654 /* SceneDelegate.swift in Sources */,
 				A5735C512B56577D00F01654 /* LottoAPIManager.swift in Sources */,
