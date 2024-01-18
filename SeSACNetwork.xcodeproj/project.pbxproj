@@ -19,6 +19,12 @@
 		A5735C512B56577D00F01654 /* LottoAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5735C502B56577D00F01654 /* LottoAPIManager.swift */; };
 		A59F841F2B576AED00F1BA27 /* BookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A59F841E2B576AED00F1BA27 /* BookViewController.swift */; };
 		A59F84212B576C6400F1BA27 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = A59F84202B576C6300F1BA27 /* .gitignore */; };
+		A59F84232B576D0700F1BA27 /* APIKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = A59F84222B576D0700F1BA27 /* APIKey.swift */; };
+		A59F842A2B57BF0100F1BA27 /* LanguageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A59F84292B57BF0100F1BA27 /* LanguageViewController.swift */; };
+		A59F842C2B57BF6500F1BA27 /* LanguageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A59F842B2B57BF6500F1BA27 /* LanguageTableViewCell.swift */; };
+		A59F842E2B58087F00F1BA27 /* Language2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A59F842D2B58087F00F1BA27 /* Language2ViewController.swift */; };
+		A59F84302B5813B000F1BA27 /* BookCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A59F842F2B5813B000F1BA27 /* BookCollectionViewCell.swift */; };
+		A59F84332B581AC600F1BA27 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = A59F84322B581AC600F1BA27 /* Kingfisher */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +41,11 @@
 		A5735C502B56577D00F01654 /* LottoAPIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottoAPIManager.swift; sourceTree = "<group>"; };
 		A59F841E2B576AED00F1BA27 /* BookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookViewController.swift; sourceTree = "<group>"; };
 		A59F84202B576C6300F1BA27 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		A59F84222B576D0700F1BA27 /* APIKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKey.swift; sourceTree = "<group>"; };
+		A59F84292B57BF0100F1BA27 /* LanguageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageViewController.swift; sourceTree = "<group>"; };
+		A59F842B2B57BF6500F1BA27 /* LanguageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageTableViewCell.swift; sourceTree = "<group>"; };
+		A59F842D2B58087F00F1BA27 /* Language2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Language2ViewController.swift; sourceTree = "<group>"; };
+		A59F842F2B5813B000F1BA27 /* BookCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A59F84332B581AC600F1BA27 /* Kingfisher in Frameworks */,
 				A5735C4B2B561B2B00F01654 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -69,19 +81,64 @@
 		A5735C342B561B1900F01654 /* SeSACNetwork */ = {
 			isa = PBXGroup;
 			children = (
+				A59F84242B576E2F00F1BA27 /* Resource */,
+				A59F84252B57BE3B00F1BA27 /* Papago */,
+				A59F84262B57BE5800F1BA27 /* Lotto */,
+				A59F84272B57BE6D00F1BA27 /* Market */,
+				A59F84282B57BE8300F1BA27 /* Book */,
 				A5735C352B561B1900F01654 /* AppDelegate.swift */,
 				A5735C372B561B1900F01654 /* SceneDelegate.swift */,
-				A5735C392B561B1900F01654 /* ViewController.swift */,
 				A5735C3B2B561B1900F01654 /* Main.storyboard */,
 				A5735C3E2B561B1B00F01654 /* Assets.xcassets */,
 				A5735C402B561B1B00F01654 /* LaunchScreen.storyboard */,
 				A5735C432B561B1B00F01654 /* Info.plist */,
-				A5735C4C2B561B4F00F01654 /* LottoViewController.swift */,
-				A5735C502B56577D00F01654 /* LottoAPIManager.swift */,
-				A5735C4E2B56218500F01654 /* MarketViewViewController.swift */,
-				A59F841E2B576AED00F1BA27 /* BookViewController.swift */,
 			);
 			path = SeSACNetwork;
+			sourceTree = "<group>";
+		};
+		A59F84242B576E2F00F1BA27 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				A59F84222B576D0700F1BA27 /* APIKey.swift */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		A59F84252B57BE3B00F1BA27 /* Papago */ = {
+			isa = PBXGroup;
+			children = (
+				A5735C392B561B1900F01654 /* ViewController.swift */,
+				A59F84292B57BF0100F1BA27 /* LanguageViewController.swift */,
+				A59F842D2B58087F00F1BA27 /* Language2ViewController.swift */,
+				A59F842B2B57BF6500F1BA27 /* LanguageTableViewCell.swift */,
+			);
+			path = Papago;
+			sourceTree = "<group>";
+		};
+		A59F84262B57BE5800F1BA27 /* Lotto */ = {
+			isa = PBXGroup;
+			children = (
+				A5735C4C2B561B4F00F01654 /* LottoViewController.swift */,
+				A5735C502B56577D00F01654 /* LottoAPIManager.swift */,
+			);
+			path = Lotto;
+			sourceTree = "<group>";
+		};
+		A59F84272B57BE6D00F1BA27 /* Market */ = {
+			isa = PBXGroup;
+			children = (
+				A5735C4E2B56218500F01654 /* MarketViewViewController.swift */,
+			);
+			path = Market;
+			sourceTree = "<group>";
+		};
+		A59F84282B57BE8300F1BA27 /* Book */ = {
+			isa = PBXGroup;
+			children = (
+				A59F841E2B576AED00F1BA27 /* BookViewController.swift */,
+				A59F842F2B5813B000F1BA27 /* BookCollectionViewCell.swift */,
+			);
+			path = Book;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -102,6 +159,7 @@
 			name = SeSACNetwork;
 			packageProductDependencies = (
 				A5735C4A2B561B2B00F01654 /* Alamofire */,
+				A59F84322B581AC600F1BA27 /* Kingfisher */,
 			);
 			productName = SeSACNetwork;
 			productReference = A5735C322B561B1900F01654 /* SeSACNetwork.app */;
@@ -133,6 +191,7 @@
 			mainGroup = A5735C292B561B1900F01654;
 			packageReferences = (
 				A5735C492B561B2B00F01654 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				A59F84312B581AC600F1BA27 /* XCRemoteSwiftPackageReference "Kingfisher" */,
 			);
 			productRefGroup = A5735C332B561B1900F01654 /* Products */;
 			projectDirPath = "";
@@ -164,9 +223,14 @@
 			files = (
 				A5735C3A2B561B1900F01654 /* ViewController.swift in Sources */,
 				A5735C4D2B561B4F00F01654 /* LottoViewController.swift in Sources */,
+				A59F842A2B57BF0100F1BA27 /* LanguageViewController.swift in Sources */,
+				A59F84232B576D0700F1BA27 /* APIKey.swift in Sources */,
+				A59F842E2B58087F00F1BA27 /* Language2ViewController.swift in Sources */,
 				A5735C362B561B1900F01654 /* AppDelegate.swift in Sources */,
+				A59F842C2B57BF6500F1BA27 /* LanguageTableViewCell.swift in Sources */,
 				A59F841F2B576AED00F1BA27 /* BookViewController.swift in Sources */,
 				A5735C4F2B56218500F01654 /* MarketViewViewController.swift in Sources */,
+				A59F84302B5813B000F1BA27 /* BookCollectionViewCell.swift in Sources */,
 				A5735C382B561B1900F01654 /* SceneDelegate.swift in Sources */,
 				A5735C512B56577D00F01654 /* LottoAPIManager.swift in Sources */,
 			);
@@ -401,6 +465,14 @@
 				minimumVersion = 5.8.1;
 			};
 		};
+		A59F84312B581AC600F1BA27 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.10.2;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -408,6 +480,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = A5735C492B561B2B00F01654 /* XCRemoteSwiftPackageReference "Alamofire" */;
 			productName = Alamofire;
+		};
+		A59F84322B581AC600F1BA27 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A59F84312B581AC600F1BA27 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
